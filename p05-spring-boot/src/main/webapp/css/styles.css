@@ -1,0 +1,21 @@
+.data-table {
+	width: 80%;
+	box-shadow: 2px 2px 5px gray;
+	margin: auto;
+	border-collapse: collapse;
+	font-family: 'Segoe UI';
+	font-size: 14px;
+}
+
+.data-table>thead>tr {
+	border-bottom: 2px solid gray;
+	color: navy;
+}
+
+.data-table>tbody>tr {
+	border-bottom: 1px solid buttonface;
+}
+
+.data-table td {
+	padding: 5px;
+}

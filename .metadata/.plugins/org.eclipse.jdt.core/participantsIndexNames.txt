@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\redou\Documents\MQL-2023\S2\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2033274783.index
+\p03-spring-web-xml\src
+C:\Users\redou\Documents\MQL-2023\S2\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\860964698.index
+\p04-spring-web-annotations\src
+C:\Users\redou\Documents\MQL-2023\S2\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\869768857.index
+\p05-spring-boot\src\main\java

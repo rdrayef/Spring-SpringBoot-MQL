@@ -1,0 +1,20 @@
+package org.mql.biblio.controllers;
+
+import java.util.List;
+
+import org.mql.biblio.business.BiblioService;
+import org.mql.biblio.models.Author;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class BiblioController {
+	
+	@Autowired
+	private BiblioService service;
+	
+	public List<Author> getAllAuthors() {
+		return service.authors();
+	}
+
+}

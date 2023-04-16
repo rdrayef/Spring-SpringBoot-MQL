@@ -1,0 +1,10 @@
+package org.mql.biblio.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class BiblioController {
+	@Autowired
+	private String title;
+}

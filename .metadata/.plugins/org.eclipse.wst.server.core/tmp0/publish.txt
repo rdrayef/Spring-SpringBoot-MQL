@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Mon Apr 03 13:14:57 WET 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\redou\\Documents\\MQL-2023\\S2\\Spring\\p03-spring-web-xml\\WebContent\\WEB-INF\\lib\\spring-web-5.3.16.jar=C\:\\tools\\Spring-Spring Boot\\Spring-5.3.16\\spring-tool-suite-3.9.12.RELEASE-e4.15.0-win32-x86_64\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\p03-spring-web-xml\\WEB-INF\\lib\\spring-web-5.3.16.jar
+org.eclipse.jst.jee.server\:p03-spring-web-xml=C\:\\tools\\Spring-Spring Boot\\Spring-5.3.16\\spring-tool-suite-3.9.12.RELEASE-e4.15.0-win32-x86_64\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\p03-spring-web-xml
+org.eclipse.jst.jee.server\:p04-spring-web-annotations=C\:\\tools\\Spring-Spring Boot\\Spring-5.3.16\\spring-tool-suite-3.9.12.RELEASE-e4.15.0-win32-x86_64\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\p04-spring-web-annotations
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\redou\\Documents\\MQL-2023\\S2\\Spring\\p04-spring-web-annotations\\WebContent\\WEB-INF\\lib\\spring-web-5.3.16.jar=C\:\\tools\\Spring-Spring Boot\\Spring-5.3.16\\spring-tool-suite-3.9.12.RELEASE-e4.15.0-win32-x86_64\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\p04-spring-web-annotations\\WEB-INF\\lib\\spring-web-5.3.16.jar
