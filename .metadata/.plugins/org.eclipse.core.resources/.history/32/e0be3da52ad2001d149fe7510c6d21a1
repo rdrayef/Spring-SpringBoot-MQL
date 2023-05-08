@@ -1,5 +1,0 @@
-package org.mql.biblio.controllers;
-
-public enum BiblioController {
-
-}

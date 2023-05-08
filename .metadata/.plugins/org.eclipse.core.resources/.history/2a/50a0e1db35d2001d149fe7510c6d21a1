@@ -1,8 +1,0 @@
-package org.mql.biblio.controllers;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-public class BiblioController {
-
-}

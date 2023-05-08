@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<h1>Liste des auteurs</h1>
+	<table class="data-table">
+		<tr th:each="a : ${authors}">
+			<td th:text="${a.id}">
+			<td th:text="${a.name}">
+			<td th:text="${a.yearBorn}">
+		</tr>
+	</table>
+</body>
+
+</html>
