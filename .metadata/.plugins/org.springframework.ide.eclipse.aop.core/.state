@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="biblio-jpa"/>
 <aop-project name="biblio-manager"/>
 <aop-project name="p03-spring-web-xml"/>
 <aop-project name="p05-spring-boot"/>
 <aop-project name="p06-spring-boot"/>
+<aop-project name="stock-jpa"/>
 <aop-project name="p02-spring-annotations"/>
 <aop-project name="biblio-rest-api"/>
 <aop-project name="p01-spring-xml"/>

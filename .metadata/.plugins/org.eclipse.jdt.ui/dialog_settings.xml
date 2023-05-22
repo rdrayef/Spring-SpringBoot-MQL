@@ -46,7 +46,7 @@
 		<item key="FinalModifier" value="false"/>
 		<item key="SynchronizedModifier" value="false"/>
 		<item key="Comments" value="false"/>
-		<item key="LimitElements" value="false"/>
+		<item key="LimitElements" value="true"/>
 		<item key="IgnoreDefault" value="true"/>
 		<item key="StringStyle" value="0"/>
 		<item key="LimitValue" value="10"/>

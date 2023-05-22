@@ -4,24 +4,28 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
+
 @Configuration
-//Si j'utilise pas propertysource il va chercher dans application.properties
+//Si j'utilise pas property source il va chercher dans application.properties
 @PropertySource("classpath:biblio.properties")
+@ConfigurationProperties(prefix = "biblio.ds")
 public class DataSource {
-	@Value("${biblio.ds.driver}")
+	//@Value("${biblio.ds.driver}")
+	//Il faut respecter la casse 
 	private String driver;
-	@Value("${biblio.ds.bridge}")
+	//@Value("${biblio.ds.bridge}")
 	private String bridge;
-	@Value("${biblio.ds.host}")
+	//@Value("${biblio.ds.host}")
 	private String host;
-	@Value("${biblio.ds.source}")
+	//@Value("${biblio.ds.source}")
 	private String source;
-	@Value("${biblio.ds.user}")
+	//@Value("${biblio.ds.user}")
 	private String user;
-	@Value("${biblio.ds.password}")
+	//@Value("${biblio.ds.password}")
 	private String password;
 
 	public DataSource() {
